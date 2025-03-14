@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template Example</title>
+</head>
+
+<body>
+  <h1>Template Example</h1>
+
+  <!-- 表达式输出 -->
+  <div>
+    <%= user.name %>
+  </div>
+
+  <!-- 转义输出 -->
+  <div>
+    <%~ user.description %>
+  </div>
+
+  <!-- 代码块 -->
+  <ul>
+    <% for (const item of items) { %>
+      <li>
+        <%= item %>
+      </li>
+      <% } %>
+  </ul>
+
+  <script type="module" src="./main.ts"></script>
+</body>
+
+</html>

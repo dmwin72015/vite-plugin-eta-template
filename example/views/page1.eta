@@ -1,0 +1,8 @@
+<% layout("./path-to-layout") %>
+
+
+<div>
+  <%~ include("@header") %>
+</div>
+
+<script src="../js/page1.ts" type="module"></script>

@@ -1,0 +1,11 @@
+<script src="../js/page2.ts" type="module"></script>
+
+<h1>
+  Hi <%= it.name %>
+</h1>
+
+<pre>
+
+Hi <%~ it.contentContainingHTML %>
+
+</pre>

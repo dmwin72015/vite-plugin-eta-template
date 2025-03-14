@@ -1,0 +1,19 @@
+<script src="../js/page3.ts" type="module"></script>
+
+<% if (it.someval === "someothervalue") { %>
+  Display this!
+<% } else { %>
+  They're not equal
+<% } %>
+
+<% users.forEach(function(user){ %>
+  <%= user.first %> <%= user.last %>
+<% }) %>
+
+<% Object.keys(someObject).forEach(function(prop) { %>
+  <%= someObject[prop] %>
+<% }) %>
+
+
+<% console.log("The value of it.num is: " + it.num) %>
+
